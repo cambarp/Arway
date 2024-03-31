@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --letras_list:#454444;
+    --fondo_conte:gray;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Helvetica', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}

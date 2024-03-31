@@ -1,0 +1,59 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(80deg,#f1f2f1,#f5f2f2,#827f7f ) ;
+    align-items: center;
+    margin: auto;
+    height: 4.1vw;
+    padding:2.8vw;
+}
+.logo__image{
+    width: 4.5vw;
+    height: 4.5vw;
+}
+.menu__list{
+    display: flex;
+}
+.list__list{
+    margin-right:  2.1vw;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: clamp(1.2vw, 1.4vw, 3.1vw);
+    font-weight: 100;
+    
+}
+.list__enlace{
+    text-decoration: none;
+    font-weight: 100;
+    color:var(--letras_list) ;
+}
+.header__redes{
+
+}
+.redes__red {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.red__list {
+    margin: 0 10px;
+}
+.list__red {
+    font-size: 24px;
+    color: #333; 
+    text-decoration: none; 
+}
+
+.list__red:hover {
+    color: #15c65f; 
+}
+.fa-facebook:hover{
+    color: rgb(16, 32, 212);
+}
+.fa-instagram:hover{
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+
+
+}
